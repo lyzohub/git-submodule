@@ -10,11 +10,11 @@ output "submodule_pet" {
 }
 
 module "nested-00" {
-  source = "./nested-00"
+  source = "./git-nested-00"
 }
 
 module "nested-01" {
-  source = "./nested-01"
+  source = "./git-nested-01"
 }
 
 output "nested_00_pet" {
