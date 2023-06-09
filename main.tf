@@ -6,7 +6,7 @@ resource "random_pet" "submodule" {
 }
 
 output "submodule_pet" {
-  value = resource.random_pet.submodule_repo.id
+  value = resource.random_pet.submodule.id
 }
 
 module "nested-00" {
