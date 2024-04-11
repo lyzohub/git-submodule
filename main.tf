@@ -16,7 +16,3 @@ module "nested-00" {
 output "nested_00_pet" {
   value = module.nested-00.nested_00_pet
 }
-
-output "nested_01_pet" {
-  value = module.nested-01.nested_01_pet
-}
