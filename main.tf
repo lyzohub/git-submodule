@@ -13,10 +13,6 @@ module "nested-00" {
   source = "./git-nested-00"
 }
 
-module "nested-01" {
-  source = "./git-nested-01"
-}
-
 output "nested_00_pet" {
   value = module.nested-00.nested_00_pet
 }
